@@ -13,7 +13,7 @@ services:
     db:
         image: mariadb:latest
         container_name: db
-        rastart: always
+        restart: always
         environment:
             - MYSQL_ROOT_PASSWORD=rootpw
             - MYSQL_DATABASE=yamroll
