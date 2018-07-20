@@ -4,7 +4,9 @@
 ```
 .
 +-- compose
+    -- docker-compose.yml
 +-- site
+    -- index.php
 ```
 
 
