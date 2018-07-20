@@ -4,6 +4,7 @@ services:
     php:
         image: php:7-apache
         container_name: pa
+        restart: always
         volumes:
             - ../site/:/var/www/html
         ports:
@@ -12,6 +13,7 @@ services:
     db:
         image: mariadb:latest
         container_name: db
+        rastart: always
         environment:
             - MYSQL_ROOT_PASSWORD=rootpw
             - MYSQL_DATABASE=yamroll
