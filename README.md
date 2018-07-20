@@ -9,3 +9,12 @@
 ``` 
 & docker ps -a
 ```
+**Database**  
+```
+& cd compose  
+& docker-compose exec db bash  
+& mysql -u root -p
+```
+```
+> use yamroll;
+```
